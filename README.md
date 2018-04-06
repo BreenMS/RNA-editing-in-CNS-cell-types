@@ -1,11 +1,7 @@
-# Umbilical-cord-blood-transcriptome-analysis
-This account contains the following:
+# Rapid Geneset enrichment testing across multiple user gene/protein lists. 
+When performing gene-set enrichment analysis, one often wishes to compare gene set enrichment results across multiple specified gene lists. This may include gene lists defined by different combinations of user-defined cutoffs (P-values and fold changes) or multiple gene lists gathered from independent/related studies. Here I provide access to:
 
-1. QC'd and normalized gene expression data, covering 149 umbilical cord blood samples -file pending manuscript acceptance
-2. Meta-data file for 149 umibilical cord blood samples -file pending manuscript acceptance
-2. Computational R code for QC and differential expression -QC_and_DEcode.R
-3. Computational R code for WGCNA analysis -WGCNA_Analysis.R
+1. Multiple genesets for gene enrichment analysis: GO:CC, GO:MF, GO:BP, KEGG Pathways, REACTOME pathways, CNS cell types, peripheral blood immune cell types, disease-gene relationships curated from DisGenNet (and those that are specific to brain/psychiatric phenotypes), lists of neurodevelopmental genetic risk loci.
+2. R statistical code to perform rapid geneset enrichment analysis across multiple user gene/protein lists. In addition, I provide methods to compare and contrast gene-set results across multipe lists. 
 
 Comments, questions or otherwise, feel free to contact me @ michael.breen@mssm.edu
-
-https://www.biorxiv.org/content/early/2017/11/08/216309
