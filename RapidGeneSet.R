@@ -9,6 +9,8 @@ list1a <- strsplit(list1, "[[:space:]]+")
 names(list1a) <- sapply(list1a, `[[`, 1)
 list1a <- lapply(list1a, `[`, -1)
 
+BACKGROUND=24000; #Set genomic background to 24,000.
+
 for(i in 1:length(files))
 {
 message(files[i]) #print gmt file currently under analysis
@@ -22,9 +24,9 @@ list2a <- lapply(list2a, `[`, -1)
 DEGSetCounts=sapply(list1a, length) #obtain the number of genes/proteins in each user list
 GenesinGeneSet=sapply(list2a, length) #obtain the number of genes in each gene-set
 
-go.obj <- newGeneOverlap(list1a,list2a,genome.size=24000) #Constructor for the GeneOverlap class
+go.obj <- newGeneOverlap(list1a,list2a,genome.size=BACKGROUND) #Constructor for the GeneOverlap class
 go.obj <- testGeneOverlap(go.obj) #Test function for th GeneOverlap Class - perform Fisher's exact test based on information supplied in GeneOverlap object. This function also calculates the Jaccard index. 
-gom.obj <- newGOM(list1a, list2a, 24000) #Constructor for the GeneOverlap class
+gom.obj <- newGOM(list1a, list2a, BACKGROUND) #Constructor for the GeneOverlap class
  
 ptab=getMatrix(gom.obj, name="pval") #print p-values for all overlaps
 otab=getMatrix(gom.obj, "odds.ratio") #print odds-ratios for all overlaps
