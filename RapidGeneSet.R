@@ -4,7 +4,7 @@ sri=read.table("GMTFiles.txt", stringsAsFactors=FALSE)
 files=basename(sri$V1)
 
 #Input .gmt formated user-defined gene/protein lists. 
-list1 <- scan("DGE.gmt", what="", sep="\n")
+list1 <- scan("UserList.gmt", what="", sep="\n")
 list1a <- strsplit(list1, "[[:space:]]+")
 names(list1a) <- sapply(list1a, `[[`, 1)
 list1a <- lapply(list1a, `[`, -1)
