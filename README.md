@@ -26,4 +26,5 @@ parse_pileup_query.pl = a requirement for query_known_sites.pl
 # GTEx RNA editing matrices per brain region:
 
 
+# Interactive interface
 An Rshiny app enabling users to download sites based on a gene of interest: https://breenms.shinyapps.io/CNS_RNA_Editing
