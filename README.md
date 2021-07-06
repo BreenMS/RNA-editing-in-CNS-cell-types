@@ -2,8 +2,3 @@
 Ryn Cuddleston, Junhao Li, Xuanjia Fan, Alexy Kozenkov, Matthew Lalli, Stella Dracheva, Eran A. Mukamel, Michael S. Breen
 
 https://breenms.shinyapps.io/CNS_RNA_Editing
-
-
-Usage: Rscript RapidGeneSet.R
-
-Comments, questions or otherwise, feel free to contact me @ michael.breen@mssm.edu
