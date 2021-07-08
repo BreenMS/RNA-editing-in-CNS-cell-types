@@ -26,6 +26,8 @@ Usage: perl query_known_sites.pl [List of known editing sites] [STAR mapped bam 
 ```ruby
 perl query_known_sites.pl CNS_A2G_events.txt SampleName.bam OutputFileName.txt
 ```
+<br />  
+AEI.sh = RNAEditingIndexer code to compute the Alu editing index for a mapped bam file
 
 # GTEx RNA editing matrices per brain region:
 
