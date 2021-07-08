@@ -20,7 +20,7 @@ CNS_A2G_15221edits.txt = A matrix of 15,221 RNA editing sites detected across al
 CNS_A2G_events.txt = Annotation of 166,215 A-to-I RNA editing sites detected within each cell population.<br /> 
 
 # Useful code:
-query_known_sites.pl= perl script that excutes mpileup (samtools) to query a list of known RNA editing sites.<br />
+query_known_sites.pl= excute mpileup (samtools) to query a list of known editing sites.<br />
 parse_pileup_query.pl = a requirement for query_known_sites.pl<br />  
 Usage: perl query_known_sites.pl [List of known editing sites] [STAR mapped bam file] [Output file name]
 ```ruby
