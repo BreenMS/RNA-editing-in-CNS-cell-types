@@ -3,7 +3,7 @@ Ryn Cuddleston, Junhao Li, Xuanjia Fan, Alexy Kozenkov, Matthew Lalli, Stella Dr
 
 Posttranscriptional modifications by RNA editing are pervasive in the brain, yet their cellular and genetic drivers remain poorly described. We quantified base-specific RNA editing across three major cell populations from the human prefrontal cortex: medial ganglionic eminence (MGE)-derived GABAergic neurons, glutamatergic neurons and oligodendrocytes. We uncovered a global increase in selective editing and RNA hyper-editing in neurons relative to oligodendrocytes. Bioinformatic analysis identified 189,229 bona fide cell type-associated sites spanning introns, 3’UTRs and exons, including sites implicated in neurodevelopment and neurological disorders. The cellular specificity for thousands of sites was confirmed by snRNA-sequencing. Importantly, cell type-associated sites were enriched in GTEx RNA-sequencing data, edited ~twentyfold higher than all other sites, and variation in RNA editing was predominately explained by neuronal proportions in bulk brain tissue. Finally, we discovered 661,791 cis-editing quantitative trait loci across thirteen brain regions, including hundreds with cell type-associated features. These data expand the repertoire of highly regulated RNA editing sites across cell types, brain regions and their genetic regulation. 
 
-# Supplemental Data Tables 1-10:
+# Supplemental Data Tables 1-11:
 Table S1. Alu editing index and hyper-editing across purified cortical cell populations.<br />
 Table S2. Annotation of all 189,229 cell-specific RNA editing sites in the current study.<br />
 Table S3. RNA editing sites as a function of ADAR expression and RBPs.<br />
