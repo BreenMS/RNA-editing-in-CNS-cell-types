@@ -9,11 +9,12 @@ Table S2. Annotation of all 189,229 cell-specific RNA editing sites in the curre
 Table S3. RNA editing sites as a function of ADAR expression and RBPs.<br />
 Table S4. Differential RNA editing across cell types, plus pathway and disease enrichment.<br />
 Table S5. RNA recoding events across cell types.<br />
-Table S6. The number of RNA editing events by gene length.<br /> 
-Table S7. Validation of RNA editing sites by snRNA-seq cellular pools.<br /> 
-Table S8. Features of RNA editing in GTEx brain regions.<br />
-Table S9. Total number of sites by genic region following sample thresholds  per brain region.<br /> 
-Table S10. Max-edQTLs across bulk GTEx brain regions.<br /> 
+Table S6. rhAmpSeq validation of recoding RNA-editing sites.<br /> 
+Table S7. The number of RNA editing events by gene length.<br /> 
+Table S8. Validation of RNA editing sites by snRNA-seq cellular pools.<br /> 
+Table S9. Features of RNA editing in GTEx brain regions.<br />
+Table S10. Total number of sites by genic region following sample thresholds  per brain region.<br /> 
+Table S11. Max-edQTLs across bulk GTEx brain regions.<br /> 
 
 # Useful data files:
 CNS_A2G_15221edits.txt = A matrix of 15,221 RNA editing sites detected across all cell populations.<br /> 
