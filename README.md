@@ -54,7 +54,7 @@ We used already available software from the [RNA hyper-editing GitHub account](h
 # All data are available through an interactive Rshiny interface
 An Rshiny app enabling users to download sites based on a gene of interest:<br />
 https://breenms.shinyapps.io/CNS_RNA_Editing<br /> 
-Notably, all GTEx RNA editing matrices are downloadable through this Rshiny app.<br /> 
+Notably, all GTEx RNA editing matrices are downloadable through this Rshiny app as they were too large to be hosted through github.<br /> 
 
 # Supplemental Data Tables 1-11:
 Table S1. Alu editing index and hyper-editing across purified cortical cell populations.<br />
