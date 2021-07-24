@@ -18,12 +18,12 @@ Table S11. Max-edQTLs across bulk GTEx brain regions.<br />
 
 # Useful data files:
 CNS_A2G_15221edits.txt = A matrix of 15,221 RNA editing sites detected across all cell populations.<br /> 
-CNS_A2G_events.txt = Annotation of 166,215 A-to-I RNA editing sites detected within each cell population.<br /> 
+CNS_A2G_events.txt = A predefined list of 166,215 A-to-I RNA editing sites detected within each cell population.<br /> 
 
-# Useful code:
+# Computational code to call known RNA editing sites from a STAR mapped bam file (based on a predefined list of sites):
 query_known_sites.pl= excute mpileup (samtools) to query a list of known editing sites.<br />
 parse_pileup_query.pl = a requirement for query_known_sites.pl<br />  
-Usage: perl query_known_sites.pl [List of known editing sites] [STAR mapped bam file] [Output file name]
+Usage: perl query_known_sites.pl [A predefined list of known editing sites] [STAR mapped bam file] [Output file name]
 ```ruby
 perl query_known_sites.pl CNS_A2G_events.txt SampleName.bam OutputFileName.txt
 ```
