@@ -46,7 +46,7 @@ CNS_A2G_15221edits.txt = A matrix of 15,221 RNA editing sites we detected across
 <br />  
 
 # 4. Quantifying RNA hyper-editing sites from STAR unmapped fastq files:
-We used already available software from the [RNA hyper-editing GitHub account](https://github.com/hagitpt/Hyper-editing) to quantify RNA hyper-editing sites based on a STAR unmapped fastq files. The method is describe in the original publication, [Genome Biology (2017)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1315-y). We provide a detailed example of how we execute this pipeline providing all code, with minor modifications, at [Ryn Cuddleston's GitHub account](https://github.com/ryncuddleston/RNA-hyper-editing) .  <br /> 
+We used already available software from the [RNA hyper-editing GitHub account](https://github.com/hagitpt/Hyper-editing) to quantify RNA hyper-editing sites based on a STAR unmapped fastq files. The method is describe in the original publication, [Genome Biology (2017)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1315-y). We provide a detailed example of how we execute this pipeline providing all code, with minor modifications, at [Winston Cuddleston's GitHub account](https://github.com/ryncuddleston/RNA-hyper-editing) .  <br /> 
 
 
 <br />  
